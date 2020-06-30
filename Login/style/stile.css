@@ -1,0 +1,57 @@
+body {
+    background-color: #49a171;
+}
+
+.bottoni:disabled {
+    background: #f8f9fa;
+    border: 0px;
+    color: #000;
+}
+
+label {
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+   padding-left: 10px;
+    
+}
+
+input {
+    border: 0px;
+    background: #f8f9fa;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.bord {
+    border-bottom: 1px solid #c4c0c0;
+}
+
+button.invia {
+    background: #4b9e70;
+    border: 0;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    width: 100%;
+}
+
+button.invia:hover {
+    background: #178147;
+}
+
+.bottoni {
+    background: #6c757d;
+    border: 0;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    width: 100%;
+}
+
+
+
+/* button.registrati:hover {
+    background: #9a9da0;
+} */

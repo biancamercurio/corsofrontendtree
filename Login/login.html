@@ -1,0 +1,58 @@
+<!-- Non sei registrato? Registrati adesso: porta a un form. Form di registrazione, 
+con controllo univoco sulla mail e funzione di hash per la password. 
+L'oggetto persona deve essere inserito nello storage e la password criptata. 
+Quando si effettua il login (nome utente con la mail) si devono confrontare gli hash
+ delle password al fine di effettuare l'accesso. 
+ Poi pagina di benvenuto
+:) -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesso</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css
+        " rel="stylesheet" type="text/css">
+    <link href="style/stile.css
+        " rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row my-5">
+            <div class="col-12 col-md-6 offset-md-3">
+                <div class="bg-light">
+                    <div class="row mr-0 ml-0">
+                        <button class="col-6 p-3 bottoni" disabled>Accedi</button>
+                        <button onclick="window.location.href='signUp.html';" class="col-6 p-3 bottoni">Registrati</button>
+                    </div>
+                    <div class="pb-5 pl-5 pt-5 pr-5">
+                        <div class="form-group bord mb-4">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="email@gmail.com">
+                        </div>
+                        <div class="form-group bord mt-1">
+                            <label for="email">Password</label>
+                            <input type="password" id="password" placeholder="ciaocomeva">
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-12 offset-md-7 col-md-5">
+                        <button class="invia" onclick="accedi()">Invia</button>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/sha1.js"></script>
+    <script src="login.js"></script>
+
+</body>
+
+</html>

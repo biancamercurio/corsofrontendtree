@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveling Website</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css
+    " rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="voli.css">
+</head>
+
+<body>
+    <!-- apro header -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container text-right">
+                <a href="#" class="btn btn-link btn-sm">Login</a>
+                <a href="#" class="btn btn-link btn-sm">SignUP</a>
+                <a href="#" class="btn btn-link btn-sm">Usd</a>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-7">
+                        <img src="logo.png" alt="logo">
+                    </div>
+
+                    <div class="col-5 pr-3  text-right d-flex justify-content-end align-items-center">
+                        <a href="#" class="btn btn-link">Home</a>
+                        <a href="sales.html" class="btn btn-link">Sales</a>
+                        <a href="#" class="btn btn-link">Reviews</a>
+                        <a href="#" class="btn btn-link">News</a>
+                        <a href="#" class="btn btn-link">Contacts</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!-- chiudo header-->
+
+    <!-- apro jumbetron-->
+    <section class="hero">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="display-3">
+                        <strong>Let's discover the<br>
+                            <span class="text-brand">world</span> together</strong>
+                    </h1>
+                    <p>
+                        <i class="fas fa-plane"></i>
+                        Feature 1</p>
+                    <p>
+                        <i class="fas fa-plane"></i>
+                        Feature 2</p>
+                    <p>
+                        <i class="fas fa-plane"></i>
+                        Feature 3</p>
+                    <p>
+                        <i class="fas fa-plane"></i>
+                        Feature 4</p>
+
+                    <div class="btn btn-lg btn-primary">
+                        Find out more
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </section>
+
+
+    <!-- chiudo jumbetron-->
+    <!-- apro form -->
+    <div class="container">
+        <form action="" class="flight-search">
+            <div class="row">
+                <div class="col-4">
+                    <div class="form-group">
+                        <label for="leaving-from">Leaving from</label>
+                        <input type="text" placeholder="city, district or specific airport" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="leaving-from">Going from</label>
+                        <input type="text" placeholder="city, district or specific airport" class="form-control">
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="row">
+                        <!--<div class="col">
+                    <div class="form-group">
+                        <label for="leaving-from">Departing from</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="leaving-from">Arriving on</label>
+                        <input type="text" class="form-control">
+                    </div>
+                </div> -->
+                        <div class="col">
+                            <label for="basic-url">Departing on</label>
+                            <div class="input-group mb-3">
+                                
+                                <input type="date" id="departing-on" class="form-control">
+                                <div class="input-group-append">
+                                  <span class="input-group-text icona"><i class="fas fa-calendar"></i></span>
+                                </div>
+                              </div>
+
+                              <label for="basic-url">Arriving on</label>
+                            <div class="input-group mb-3">
+                                
+                                <input type="date" id="departing-on" class="form-control">
+                                <div class="input-group-append">
+                                  <span class="input-group-text icona"><i class="fas fa-calendar"></i></span>
+                                </div>
+                              </div>
+
+                              
+                            
+                            
+                            
+                        </div><br>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="" class="text-white">Departure</label>
+                                <select class="form-control" id="exampleFormControlSelect">
+                                    <option value="">Anytime</option>
+                                    <option value="">sas</option>
+                                    <option value="">dddd</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="text-white">Departure </label>
+                                <select class="form-control" id="exampleFormControlSelect">
+
+                                    <option value="">Anytime</option>
+                                    <option value="">sas</option>
+                                    <option value="">dddd</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="adults">Adults</label>
+                                        <input type="number" placeholder="01" id="adults" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="kids">Kids</label>
+                                        <input type="number" placeholder="01" id="kids" class="form-control">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="form-group">
+                                <label for="infants">Infants</label>
+                                <input type="number" placeholder="01" id="infants" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group">
+                                <label for="promocode">Promocode</label>
+                                <input type="number" id="promocode" placeholder="type here" class="form-control">
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="search">&nbsp</label>
+                                <input type="submit" id="flight" class="form-control">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+
+    <!-- chiudo form -->
+    <!-- apro le raccomandazioni voli-->
+    <section class="bg-gray">
+        <div class="pt-5 pb-5 container">
+            <div class="row">
+                <div class="col">
+                    <h4 class="font-weight-bold">Recommended Flights</h4>
+                    <hr class="mt-4 mb-4 col-1 separetor">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, eius.</p>
+                    <p class="mb-3">Lorem ipsum dolor sit.</p>
+                    </hr>
+                </div>
+
+            </div>
+            <div class="container">
+                <div class="row pt-5 pb-5">
+                    <div class="mt-3 col-12 col-lg-4 align-items-center">
+                        <div class="card">
+                        <div class="row">
+                            <div class="col immagine paris"></div>
+                        </div>
+
+                        <div class="row bg-light p-3">
+                            <div class="col-2 align-self-center">
+                                <i class="fas fa-plane"></i>
+                            </div>
+                            <div class="circle"></div>
+                            <div class="col-7">
+                                <h5 class="m-0 font-weight-bold">London to Paris</h5>
+                                <span>ASDFGHJJK</span>
+                            </div>
+                            <div class="col-3 text-right text-success">
+                                <span class="small">From</span> <br>
+                                $620
+                            </div>
+
+
+                        </div>
+                        <div class="row bg-light pb-3">
+                            <div class="col">
+                                <div class="btn view">View</div>
+                            </div>
+                            <div class="col text-right">
+                                <div class="btn block">Block</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="col-12 col-lg-4 mt-3">
+                        <div class="card">
+                        <div class="row">
+                            <div class="col immagine india"></div>
+                        </div>
+
+                        <div class="row bg-light p-3">
+                            <div class="col-2 align-self-center">
+                                <i class="fas fa-plane"></i>
+                            </div>
+                            <div class="circle"></div>
+                            <div class="col-7">
+                                <h5 class="m-0 font-weight-bold">Paris to India</h5>
+                                <span>ZXERVBN</span>
+                            </div>
+                            <div class="col-3 text-right text-success">
+                                <span class="small">From</span> <br>
+                                $100
+                            </div>
+
+
+                        </div>
+                        <div class="row bg-light pb-3">
+                            <div class="col">
+                                <div class="btn view">View</div>
+                            </div>
+                            <div class="col text-right">
+                                <div class="btn block">Block</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="col-12 col-lg-4 mt-3">
+                        <div class="card">
+
+                        <div class="row">
+                            <div class="col immagine london"></div>
+                        </div>
+
+                        <div class="row bg-light p-3">
+                            <div class="col-2 align-self-center">
+                                <i class="fas fa-plane"></i>
+                            </div>
+                            <div class="circle"></div>
+                            <div class="col-7">
+                                <h5 class="m-0 font-weight-bold">Paris to London</h5>
+                                <span>HJJKASDF</span>
+                            </div>
+                            <div class="col-3 text-right text-success">
+                                <span class="small">From</span> <br>
+                                $420
+                            </div>
+
+
+                        </div>
+                        <div class="row bg-light pb-3">
+                            <div class="col">
+                                <div class="btn view">View</div>
+                            </div>
+                            <div class="col text-right">
+                                <div class="btn block">Block</div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                </div>
+            </div>
+
+    </section>
+    <!-- chiudo le raccomandazioni voli-->
+
+    <!--inizio footer-->
+    <footer class="footer">
+        <div class="container">
+        <div class="row">
+            <div class="col text-center">
+                <p class="mt-2">Copyright 2020 Traveling</p>
+            </div>
+        </div>
+    </div>
+    </footer>
+
+    <!-- fine footer -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
