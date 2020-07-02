@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Province</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="stile.css">
+
+</head>
+<body>
+<div class="container-fluid bg-yellow">
+    <div class="row">
+        <div class="col-12 col-md-6 offset-md-3 text-center vh-100">
+            <h1 class="my-5">Seleziona la tua provincia</h1>
+            <div class="form-group">
+        <select id="province" class="form-control" onchange="selezionato()">
+                <option disabled selected>--seleziona una provincia --</option>
+                <option value="ct" id="catania">Catania</option>
+                <option value="en" id="enna">Enna</option>
+            </select> 
+        </div>
+        <div class="row">
+            <div id="contentSelectComuni" class="col-12 col-md-6 offset-md-3">
+               <!-- <select class="mt-4 form-control" id="comuni">
+                    <option value="">Catania</option>
+                    <option value="">Aci Castello</option>
+                    <option value="">Acireale</option>
+                </select> -->
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="comuni.js"></script>
+</body>
+</html>
