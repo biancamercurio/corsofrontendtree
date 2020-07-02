@@ -1,0 +1,23 @@
+.albums {
+    width: 100px;
+    height: 100px;
+    background-size: cover; 
+    margin-bottom: 30px;
+    margin: auto;
+ }
+ 
+ #albumContent {
+    border-right: 2px solid;
+ }
+
+ .spanDecoration {
+    width: 100%;
+    display: block;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    font-weight: 500;
+    margin: auto;
+    background: rgba(0,0,0,0.7);
+    cursor: pointer;
+ }
